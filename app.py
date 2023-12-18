@@ -10,10 +10,9 @@ mark2=st.number_input("enter the second marks",placeholder="enter the number",va
 mark3=st.number_input("enter the third marks",placeholder="enter the number",value=None)
 tot=None
 Avg=None
-if mark and mark2 and mark3==True:
+if (mark and mark2 and mark3)==True:
     tot=mark+mark2+mark3
     avg=tot/3
-if avg==True:
     if avg>45:
         st.write("your are Pass the exam")
     else:
