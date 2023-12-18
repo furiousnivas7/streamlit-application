@@ -14,8 +14,8 @@ Avg=None
 st.button("Reset", type="primary")
 if st.button('Say hello'):
     if (mark and mark2 and mark3)!=0:
-    tot=mark+mark2+mark3
-    avg=tot/3
+        tot=mark+mark2+mark3
+        avg=tot/3
     if avg>45:
         st.write("your are Pass the exam")
     else:
