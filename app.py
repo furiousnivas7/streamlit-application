@@ -1,10 +1,13 @@
 import streamlit as st
+import json
+import os
+
 
 st.title("Pass or Fail")
 Name=st.text_input("enter your name" ,placeholder="enter the Name")
-mark=st.number_input("enter the mark",placeholder="enter the number" )
-mark2=st.number_input("enter the second marks",placeholder="enter the number")
-mark3=st.number_input("enter the third marks",placeholder="enter the number")
+mark=st.number_input("enter the mark",placeholder="enter the number", value="None" )
+mark2=st.number_input("enter the second marks",placeholder="enter the number",value="None")
+mark3=st.number_input("enter the third marks",placeholder="enter the number",value="None")
 tot=mark+mark2+mark3
 avg=tot/3
 
