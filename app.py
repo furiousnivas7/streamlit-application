@@ -28,15 +28,15 @@ if st.button('submit'):
     st.write("your total is",tot)
     st.write("your avgrage is ",avg)
 else:
-    st.write('thank you')
-
-if st.button("reset"):
+    if st.button("reset"):
     Name=None
     mark=None
     mark2=None
     mark3=None
     tot=None
     avg=None
+
+
 
 
 
