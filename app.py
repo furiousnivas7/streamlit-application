@@ -11,10 +11,10 @@ mark3=st.number_input("enter the third marks",placeholder="enter the number",val
 #tot=mark+mark2+mark3
 #avg=tot/3
 
-if avg>45:
-    st.write("your are Pass the exam")
-else:
-    st.write("your are,fail the exam")
+#if avg>45:
+  #  st.write("your are Pass the exam")
+#else:
+  #  st.write("your are,fail the exam")
 
 st.write("Hello",Name)
 st.write("your mark1 is",mark)
