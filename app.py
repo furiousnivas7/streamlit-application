@@ -10,7 +10,7 @@ mark2=st.number_input("enter the second marks",placeholder="enter the number",va
 mark3=st.number_input("enter the third marks",placeholder="enter the number",value=None)
 tot=None
 Avg=None
-tot=int(mark)+int(mark2)+int(mark3)
+tot=mark+mark2+mark3
 avg=tot/3
 
 if avg>45:
