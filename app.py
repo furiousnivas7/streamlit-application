@@ -12,7 +12,7 @@ tot=None
 Avg=None
 
 st.button("submit", type="primary")
-if st.button('Say hello'):
+if st.button('submit'):
     if (mark and mark2 and mark3)!=0:
         tot=mark+mark2+mark3
         avg=tot/3
