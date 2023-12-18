@@ -11,7 +11,7 @@ mark3=st.number_input("enter the third marks",placeholder="enter the number",val
 tot=None
 Avg=None
 
-st.button("submit", type="primary")
+
 if st.button('submit'):
     if (mark and mark2 and mark3)!=0:
         tot=mark+mark2+mark3
