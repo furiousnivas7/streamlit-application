@@ -21,7 +21,6 @@ def save_data(file_path, data):
 
 # Load existing data
 data = load_data(json_file_path)
-download=st.button('Download JSON Data')
 
 # Input fields
 Name = st.text_input("Enter your name", placeholder="Enter the Name")
