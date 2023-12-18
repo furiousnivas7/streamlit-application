@@ -9,7 +9,7 @@ tot=mark+mark2+mark3
 avg=tot/3
 
 if avg>45:
-    st.radio("your are",[pass],"the exam")
+    st.radio("your are",[Pass],"the exam")
 else:
     st.radio("your are",[fail],"the exam")
 
