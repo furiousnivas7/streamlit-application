@@ -8,6 +8,11 @@ mark3=st.number_input("enter the third marks",placeholder="enter the number")
 tot=mark+mark2+mark3
 avg=tot/3
 
+if avg>45:
+    st.radio("your are",[pass],"the exam")
+else:
+    st.radio("your are",[fail],"the exam")
+
 st.write("Hello",Name)
 st.write("your mark1 is",mark)
 st.write("your mark2 is", mark2)
