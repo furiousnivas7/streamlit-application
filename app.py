@@ -9,9 +9,9 @@ tot=mark+mark2+mark3
 avg=tot/3
 
 if avg>45:
-    st.write("your are",Pass,"the exam")
+    st.write("your are Pass the exam")
 else:
-    st.write("your are",fail,"the exam")
+    st.write("your are,fail the exam")
 
 st.write("Hello",Name)
 st.write("your mark1 is",mark)
