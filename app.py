@@ -9,7 +9,7 @@ mark=st.number_input("enter the mark",placeholder="enter the number", value=None
 mark2=st.number_input("enter the second marks",placeholder="enter the number",value=None)
 mark3=st.number_input("enter the third marks",placeholder="enter the number",value=None)
 tot=None
-Avg=None
+avg=None
 
 
 if st.button('submit'):
@@ -28,7 +28,15 @@ if st.button('submit'):
     st.write("your total is",tot)
     st.write("your avgrage is ",avg)
 else:
-    st.write('Goodbye')
+    st.write('thank you')
+
+if st.button("reset"):
+    Name=None
+    mark=None
+    mark2=None
+    mark3=None
+    tot=None
+    avg=None
 
 
 
