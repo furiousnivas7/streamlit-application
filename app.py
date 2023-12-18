@@ -8,8 +8,8 @@ Name=st.text_input("enter your name" ,placeholder="enter the Name")
 mark=st.number_input("enter the mark",placeholder="enter the number", value=None )
 mark2=st.number_input("enter the second marks",placeholder="enter the number",value=None)
 mark3=st.number_input("enter the third marks",placeholder="enter the number",value=None)
-tot=mark+mark2+mark3
-avg=tot/3
+#tot=mark+mark2+mark3
+#avg=tot/3
 
 if avg>45:
     st.write("your are Pass the exam")
