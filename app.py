@@ -10,7 +10,10 @@ mark2=st.number_input("enter the second marks",placeholder="enter the number",va
 mark3=st.number_input("enter the third marks",placeholder="enter the number",value=None)
 tot=None
 Avg=None
-if (mark and mark2 and mark3)!=0:
+
+st.button("Reset", type="primary")
+if st.button('Say hello'):
+    if (mark and mark2 and mark3)!=0:
     tot=mark+mark2+mark3
     avg=tot/3
     if avg>45:
@@ -18,9 +21,17 @@ if (mark and mark2 and mark3)!=0:
     else:
         st.write("your are,fail the exam")
 
-st.write("Hello",Name)
-st.write("your mark1 is",mark)
-st.write("your mark2 is", mark2)
-st.write("your third marks is",mark3)
-st.write("your total is",tot)
-st.write("your avgrage is ",avg)
+    st.write("Hello",Name)
+    st.write("your mark1 is",mark)
+    st.write("your mark2 is", mark2)
+    st.write("your third marks is",mark3)
+    st.write("your total is",tot)
+    st.write("your avgrage is ",avg)
+else:
+    st.write('Goodbye')
+
+
+
+
+
+
