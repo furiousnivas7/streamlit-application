@@ -59,7 +59,7 @@ if data:
     df = pd.DataFrame(data)
     st.table(df)
 
-if st.button('Download JSON Data'):
+#if st.button('Download JSON Data'):
     with open(json_file_path, "r") as file:
         st.download_button(
             label="Download Data as JSON",
